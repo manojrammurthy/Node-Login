@@ -6,7 +6,7 @@ module.exports=function(app,passport){
 	});
 
 	app.get('/login', function(req,res){
-		res.render('login.ejs',{message:req.flas('login Message')});
+		res.render('login.ejs',{message:req.flash('login Message')});
 	});
 
 	 // process the login form
