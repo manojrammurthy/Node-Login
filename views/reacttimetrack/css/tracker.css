@@ -1,0 +1,37 @@
+#project-form {
+	width:40%;
+	float:left;
+	margin-top:50px;
+	text-align:center;
+}
+#project-list{
+	width:40%;
+	float:right;
+	margin-top:50px;
+	text-align:center;
+}
+#log-frame{
+	/*width:50%;*/
+	text-align: center;
+	margin-top: 150px;
+	/*float:right;*/
+	
+}
+#log-frame .border{
+	border-width: 10px;	
+	border:solid 2px black;
+	background-color:grey;
+	border-radius: 5px;
+}
+
+#time-frame{
+	width:30%;
+	text-align: center;
+	margin-top: 10px;
+	float:left;
+}	
+
+#time-frame .well{
+	height: 100px;
+	
+}	

@@ -1,0 +1,39 @@
+body { font-family: helvetica, arial, sans-serif; font-size: 16px; }
+nav {
+    background-color: #14849E;
+}
+h1, h2 { margin:0; padding: 0;}
+h1 { font-size: 32px; line-height: 32px; }
+h2 { font-size: 16px; color: #666; line-height: 16px; }
+
+li { 
+    display: inline-block;margin-right: 12px;padding: 4px 8px;
+}
+
+a {
+    height: 100%;width: 100%;color: #eee;
+    text-decoration: none;transition: color 0.2s;
+}
+#example1 a {
+	height: 100%;width: 100%;color: #AD1B1B;
+    text-decoration: none;transition: color 0.2s;
+
+}
+.ContactForm > input,
+.ContactForm > textarea,
+#example2 {
+  display: block;
+  width: 240px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+}
+a:hover {
+    color: #fe9;
+}
+.btnClass{
+	color: #900;
+  font-weight: bold;
+}
